@@ -69,7 +69,7 @@
   },
   {
     "question": "Do I need to be present during the service?",
-    "answer": "It’s not necessary to be present, but we recommend it for any clarifications."
+    "answer": "It\u00e2\u20ac\u2122s not necessary to be present, but we recommend it for any clarifications."
   },
   {
     "question": "What is the earliest I can book an appointment?",
@@ -198,5 +198,49 @@
   {
     "question": "What is your refund policy?",
     "answer": "If you are unsatisfied with our service, we will work with you to provide a refund or redo the job."
+  },
+  {
+    "question": "What is the earliest I can book an appointment?",
+    "answer": "You can book an appointment as early as 9 AM the next business day."
+  },
+  {
+    "question": "How can I cancel my appointment?",
+    "answer": "You can cancel your appointment by logging into your account or calling our support."
+  },
+  {
+    "question": "What is the latest time I can reschedule an appointment?",
+    "answer": "You can reschedule your appointment up to 24 hours before the scheduled time."
+  },
+  {
+    "question": "Do you offer services on weekends?",
+    "answer": "Yes, we offer services on Saturdays but not on Sundays."
+  },
+  {
+    "question": "Can I get a refund for a missed appointment?",
+    "answer": "Unfortunately, missed appointments are non-refundable."
+  },
+  {
+    "question": "What documents do I need to bring to my appointment?",
+    "answer": "Please bring a valid ID and your appointment confirmation."
+  },
+  {
+    "question": "Is parking available at your location?",
+    "answer": "Yes, we have ample parking available for our customers."
+  },
+  {
+    "question": "How early should I arrive for my appointment?",
+    "answer": "Please arrive at least 15 minutes before your scheduled appointment."
+  },
+  {
+    "question": "Can I change my appointment time online?",
+    "answer": "Yes, you can change your appointment time by logging into your account."
+  },
+  {
+    "question": "Do I need to confirm my appointment?",
+    "answer": "Confirmation is not required, but we recommend doing so to avoid any issues."
+  },
+  {
+    "question": "What should I do if I am running late for my appointment?",
+    "answer": "Please call our office as soon as possible to let us know if you are running late."
   }
 ]

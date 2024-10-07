@@ -5,7 +5,10 @@ from fuzzywuzzy import fuzz
 from sentence_transformers import SentenceTransformer, util
 import os
 import pandas as pd
+from flask_cors import CORS
+
 app = Flask(__name__)
+CORS(app) 
 
 with open('knowledge_base.json') as f:
     knowledge_base = json.load(f)

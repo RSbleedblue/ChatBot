@@ -10,7 +10,7 @@ const inputInitHeight = chatInput.scrollHeight;
 const createChatLi = (message, className) => {
   const chatLi = document.createElement("li");
   chatLi.classList.add("chat", `${className}`);
-  let chatContent = className === "outgoing" ? `<p>${message}</p>`: `<span class="material-symbols-outlined">smart_toy</span><p>${message}</p>`;
+  let chatContent = className === "outgoing" ? `<p>${message}</p>`: `<img src="icon.png" style="height: 40px;"><p>${message}</p>`;
   chatLi.innerHTML = chatContent;
   chatLi.querySelector("p").textContent = message;
   return chatLi;
@@ -19,25 +19,49 @@ const createChatLi = (message, className) => {
 const generateResponse = (chatElement) => {
   const API_URL = "http://localhost:5000/chat";
   const messageElement = chatElement.querySelector("p");
-  console.log();
   
   const requestOptions = {
-    method: "POST",
-    headers: {
-      "Content-Type": "application/json"
-    },
-    body: JSON.stringify({
-      message: userMessage
-    })
-  }
+      method: "POST",
+      headers: {
+          "Content-Type": "application/json"
+      },
+      body: JSON.stringify({
+          message: userMessage
+      })
+  };
 
-  fetch(API_URL, requestOptions).then(res => res.json()).then(data => { 
-    messageElement.textContent = data.response;
-  }).catch(() => {
-    messageElement.classList.add("error");
-    messageElement.textContent = "Oops! Something went wrong. Please try again.";
-  }).finally(() => chatbox.scrollTo(0, chatbox.scrollHeight));
+  fetch(API_URL, requestOptions)
+      .then(res => res.json())
+      .then(data => {
+          const responseMessage = data.response;
+          simulateTyping(messageElement, responseMessage);
+      })
+      .catch(() => {
+          messageElement.classList.add("error");
+          messageElement.textContent = "Oops! Something went wrong. Please try again.";
+      })
+      .finally(() => chatbox.scrollTo(0, chatbox.scrollHeight));
 }
+
+const simulateTyping = (element, message) => {
+  const typingIndicator = document.createElement('div');
+  // typingIndicator.classList.add('typing-indicator');
+  // typingIndicator.textContent = "Typing...";
+  chatbox.appendChild(typingIndicator);
+  
+  let index = 0;
+  element.textContent = ''; 
+  const typingEffect = setInterval(() => {
+      if (index < message.length) {
+          element.textContent += message.charAt(index);
+          index++;
+      } else {
+          clearInterval(typingEffect);
+          chatbox.removeChild(typingIndicator); 
+      }
+  }, 10); 
+}
+
 
 const handleChat = () => {
   userMessage = chatInput.value.trim();

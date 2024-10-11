@@ -242,5 +242,201 @@
   {
     "question": "What should I do if I am running late for my appointment?",
     "answer": "Please call our office as soon as possible to let us know if you are running late."
+  },
+  {
+    "question": "Do you offer 24/7 emergency services?",
+    "answer": "Yes, our emergency services are available 24/7 for critical repairs."
+  },
+  {
+    "question": "What payment methods do you accept?",
+    "answer": "We accept credit cards, debit cards, and PayPal."
+  },
+  {
+    "question": "Can I get an estimate before scheduling a repair?",
+    "answer": "Yes, we provide free estimates for all our services."
+  },
+  {
+    "question": "Do you offer repair services for commercial properties?",
+    "answer": "Yes, we offer repair and maintenance services for both residential and commercial properties."
+  },
+  {
+    "question": "Do you offer insurance claim assistance?",
+    "answer": "Yes, we assist in filing insurance claims related to service repairs."
+  },
+  {
+    "question": "How long does a typical repair take?",
+    "answer": "The duration depends on the complexity of the issue but most repairs are completed within a few hours."
+  },
+  {
+    "question": "Can I track my technician's arrival?",
+    "answer": "Yes, you can track your technician's arrival via our service app."
+  },
+  {
+    "question": "Do you offer a warranty on repairs?",
+    "answer": "Yes, we offer a 1-year warranty on all parts and labor."
+  },
+  {
+    "question": "Can I pay for the service in installments?",
+    "answer": "Yes, we offer installment payment plans for larger jobs."
+  },
+  {
+    "question": "How do I get a copy of my receipt?",
+    "answer": "You can download a copy of your receipt from your account or request one via email."
+  },
+  {
+    "question": "Do you offer same-day appointments?",
+    "answer": "Same-day appointments are available depending on technician availability."
+  },
+  {
+    "question": "What is your cancellation policy?",
+    "answer": "Appointments can be canceled up to 24 hours in advance with no charge."
+  },
+  {
+    "question": "Can I schedule a regular maintenance check-up?",
+    "answer": "Yes, we recommend scheduling regular maintenance to prevent costly repairs."
+  },
+  {
+    "question": "Do you provide cleaning services for appliances?",
+    "answer": "Yes, we offer cleaning and maintenance services for household appliances."
+  },
+  {
+    "question": "Do you offer bilingual customer support?",
+    "answer": "Yes, our customer support is available in multiple languages."
+  },
+  {
+    "question": "Can I book a technician outside of normal business hours?",
+    "answer": "Yes, we offer extended hours for after-hours services at a premium rate."
+  },
+  {
+    "question": "Do you offer discounts for military personnel?",
+    "answer": "Yes, we offer a 15% discount for military personnel."
+  },
+  {
+    "question": "Can I book multiple services at once?",
+    "answer": "Yes, you can schedule multiple services during one visit."
+  },
+  {
+    "question": "What is your policy on service guarantees?",
+    "answer": "We guarantee our services and will redo the work if you're not satisfied."
+  },
+  {
+    "question": "Do you offer seasonal service packages?",
+    "answer": "Yes, we offer discounted packages for seasonal maintenance services."
+  },
+  {
+    "question": "How do I know if I need a repair or replacement?",
+    "answer": "Our technicians will assess and recommend the best solution for your situation."
+  },
+  {
+    "question": "Can I upgrade my service plan after signing up?",
+    "answer": "Yes, you can upgrade your service plan at any time."
+  },
+  {
+    "question": "Do you offer services for new construction?",
+    "answer": "Yes, we offer installation and consultation services for new construction projects."
+  },
+    {
+      "question": "What is your policy on missed appointments?",
+      "answer": "If you miss an appointment without notice, there may be a fee for rescheduling."
+    },
+    {
+      "question": "How can I update the profile for an existing employee?",
+      "answer": "1. Log In: Navigate to the login page of your website and enter your credentials to access the employee management section.\n2. Find the Employee: Use the search bar to locate the employee whose profile you want to update by entering their name or employee ID.\n3. Edit Profile: Click on the employee name to open their profile. Look for the \"Edit\" button or link, and click it to enable editing mode.\n4. Update Information: Modify the necessary fields in the profile, such as personal details, job title, or contact information.\n5. Save Changes: After making the updates, click the \"Save\" button to apply the changes. You should see a confirmation message indicating that the profile has been successfully updated."
+    },
+    {
+      "question": "Can I reschedule my appointment if there's bad weather?",
+      "answer": "Yes, you can reschedule due to inclement weather without penalty."
+    },  
+  {
+    "question": "Do you offer consultations for energy efficiency upgrades?",
+    "answer": "Yes, we provide consultations on how to make your home more energy efficient."
+  },
+  {
+    "question": "Can I sign up for email notifications for service updates?",
+    "answer": "Yes, you can opt-in for email notifications through your account settings."
+  },
+  {
+    "question": "What is your process for handling complaints?",
+    "answer": "We take all complaints seriously and aim to resolve any issues within 48 hours."
+  },
+  {
+    "question": "Can I schedule service during the holidays?",
+    "answer": "We offer limited services during major holidays. Please check availability in advance."
+  },
+  {
+    "question": "Do you offer specialized services for historical homes?",
+    "answer": "Yes, we provide specialized repair services for historical and older homes."
+  },
+  {
+    "question": "How can I get an update on my service request?",
+    "answer": "You can check the status of your request via your online account or contact customer support."
+  },
+  {
+    "question": "Do you offer eco-friendly repair options?",
+    "answer": "Yes, we offer eco-friendly materials and methods for all our repairs."
+  },
+  {
+    "question": "How do I change my contact information?",
+    "answer": "You can update your contact information in your account settings."
+  },
+  {
+    "question": "Can I leave a review after my service?",
+    "answer": "Yes, you can leave a review on our website or on third-party platforms."
+  },
+  {
+    "question": "Do you offer bulk discounts for multiple properties?",
+    "answer": "Yes, we offer bulk discounts for property managers and owners with multiple properties."
+  },
+  {
+    "question": "What is your turnaround time for standard repairs?",
+    "answer": "Most standard repairs are completed within 24 to 48 hours."
+  },
+  {
+    "question": "How do I know if a part needs replacing?",
+    "answer": "Our technician will evaluate and inform you if a replacement is needed."
+  },
+  {
+    "question": "Do you offer preventive maintenance services?",
+    "answer": "Yes, we offer preventive maintenance services to extend the life of your equipment."
+  },
+  {
+    "question": "Do you handle large-scale commercial projects?",
+    "answer": "Yes, we have a team dedicated to handling large commercial projects."
+  },
+  {
+    "question": "How do I sign up for a maintenance plan?",
+    "answer": "You can sign up for a maintenance plan through our website or by calling customer support."
+  },
+  {
+    "question": "Can I pay my service fee online?",
+    "answer": "Yes, we accept online payments through our secure portal."
+  },
+  {
+    "question": "What is your policy for returning faulty parts?",
+    "answer": "We offer a 30-day return policy on all faulty parts installed by our team."
+  },
+  {
+    "question": "Do you provide service for mobile homes?",
+    "answer": "Yes, we provide specialized services for mobile and manufactured homes."
+  },
+  {
+    "question": "Can I schedule service for a rental property?",
+    "answer": "Yes, we offer services for both homeowners and renters."
+  },
+  {
+    "question": "What do I do if my appliance breaks after repair?",
+    "answer": "Contact us immediately, and we'll address the issue under our warranty policy."
+  },
+  {
+    "question": "How can I request an invoice for my service?",
+    "answer": "Invoices are available via your account dashboard or upon request via email."
+  },
+  {
+    "question": "Do you offer emergency consultations?",
+    "answer": "Yes, we provide emergency consultations over the phone for urgent issues."
+  },
+  {
+    "question": "What is your policy on tipping the technician?",
+    "answer": "Tipping is not required, but our technicians appreciate it if you feel they have provided exceptional service."
   }
 ]

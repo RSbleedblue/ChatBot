@@ -25,7 +25,7 @@ body {
   align-items: center;
   justify-content: center;
   border-radius: 50%;
-  background: #724ae8;
+  background: #170064;
   transition: all 0.2s ease;
 }
 
@@ -71,11 +71,14 @@ body.show-chatbot .chatbot {
 }
 
 .chatbot header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   padding: 16px 0;
   position: relative;
   text-align: center;
   color: #fff;
-  background: #724ae8;
+  background: #170064;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -130,7 +133,7 @@ header h2 {
   text-align: center;
   line-height: 32px;
   align-self: flex-end;
-  background: #724ae8;
+  background: #170064;
   border-radius: 4px;
   margin: 0 10px 7px 0;
 }
@@ -142,7 +145,7 @@ header h2 {
   max-width: 75%;
   color: #fff;
   font-size: 0.95rem;
-  background: #724ae8;
+  background: #170064;
 }
 
 .chatbox .incoming p {
